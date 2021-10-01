@@ -1,0 +1,138 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+html{
+  font-size: 10px;
+}
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.2;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+input[type="submit"]{
+  -webkit-appearance: none;
+}
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 576px){
+  html{
+    font-size: 3px;
+  }
+  .container {
+    max-width: 540px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 767.98px){
+  html{
+    font-size: 6px;
+  }
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: 991.98px) {
+  html{
+    font-size: 8px;
+  }
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1199.98px){
+  html{
+    font-size: 9px;
+  }
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1440px){
+  .container {
+    max-width: 1400px;
+  }
+}
+.scrollNone{
+  overflow: hidden!important;
+}
+@media (max-width: 576px){
+  html{
+    font-size: 3.2px;
+  }
+
+}
