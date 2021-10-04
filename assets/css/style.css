@@ -554,16 +554,48 @@ body{
 	padding: 30px 0 100px 0;
 }
 
+
 footer{
-	background: #ECEEF5;
-	padding: 50px 0 30px;
+	background-color: #ECEEF5;
+	padding: 60px 0 30px 0;
 	color: #000000;
 
 	font-family: Montserrat;
 	font-style: normal;
 }
+.footer__block{
+	width: 25%;
+	color: #2B478B;
+	font-family: Montserrat;
+	font-style: normal;
+	margin-bottom: 20px;
+}
+.footer__block h3{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+.footer__block ul {
+	list-style: none;
+	padding: 0;
+}
+.footer_social{
+	margin-right: 12px;
+}
+.footer__block ul li{
+	margin: 4px 0;
+}
+.footer__block ul li a{
+	text-decoration: none;
+	color: #2B478B;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+}
 .footer-top{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .footer-left{
@@ -641,8 +673,14 @@ footer{
 
 
 .footer-bottom{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
 	text-align: center;
-	border-top: 1px solid #000000;
+	border-top: 0.5px solid #2B478B;
+	color: #2B478B;
 	padding-top: 30px;
 	font-size: 18px;
 	margin-top: 30px;
@@ -681,19 +719,49 @@ footer{
 	font-weight: normal;
 }
 
-.contact-body{
+#contact-body{
+	padding: 50px 0;
 }
-
+#contact-body .title{
+	margin-bottom: 80px;
+}
+.contact__company_link{
+	width: 33%;
+	height: 30px;
+	margin-bottom: 50px;
+}
+.contact__page__body{
+	width: 50%;
+}
+.contact__company_link__list{
+	display: flex;
+	flex-wrap: wrap;
+	height: 50%;
+}
 .contact-body-content{
 	display: flex;
 	width: 100%;
 }
 .contact-page-body{
-
 	font-family: Montserrat;
 	font-style: normal;
-
 	flex: 0 0 50%;
+}
+.contact__page__body h4{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+	color: #1D2530;
+	margin-bottom: 80px;
+	margin-top: 50px;
+}
+.content{
+	text-align: center;
+}
+.contact__body__content{
+	display: flex;
 }
 .contact-page-address{
 	font-size: 20px;
@@ -728,10 +796,48 @@ footer{
 	padding: 17px 15px;
 }
 .c-p-z{
-	border: 2px solid #B6B6B6;
-	padding: 100px 50px;
+	padding: 50px 50px;
+	background-color: #ECEEF5;
+	border-radius: 30px;
 }
+.contact__form__title{
+	width: 100%;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+}
+.contact__input{
+	width: 100%;
+	padding: 15px 10px 15px 20px;
+	margin-bottom: 23px;
+	background: #FFFFFF;
+	border-radius: 50px;
+	border: none;
+	outline: none;
 
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+}
+.contact__button{
+	padding: 10px 20px;
+	margin-top: 27px;
+	background-color: #2B478B;
+	border: 2px solid #2B478B;
+	box-sizing: border-box;
+	border-radius: 30px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
 .footer-input-c{
 	display: block;
 	width: 100%;
@@ -761,6 +867,7 @@ footer{
 }
 
 
+
 @media (min-width: 1000px){
 	.processes{
 		width: 25%;
@@ -775,6 +882,16 @@ footer{
 	}
 }
 @media (max-width: 426px){
+	.contact__company_link__list{
+		flex-wrap:nowrap;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.contact__company_link{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
 	.process-body{
 		display: block;
 	}
@@ -800,6 +917,15 @@ footer{
 
 }
 @media (max-width: 1200px) {
+	.contact__body__content {
+		flex-direction: column-reverse;
+	}
+	.contact__page__body h4{
+		text-align: center;
+	}
+	.contact__page__body{
+		width: 100%;
+	}
 	#main {
 		height: 520px;
 	}
@@ -1062,9 +1188,9 @@ footer{
 		font-size: 12px;
 		margin-top: 10px;
 	}
-	.footer-top{
-		display: block;
-	}
+	/*.footer-top{*/
+	/*	display: block;*/
+	/*}*/
 	.footer-left{
 		border-right: 0;
 		padding-right: 0;
@@ -1079,10 +1205,7 @@ footer{
 		width: 33%;
 		margin-top: 0;
 	}
-	.footer-right-title{
-		margin-bottom: 30px;
 
-	}
 	.contact-page-body.right{
 		padding: 0;
 		margin-bottom: 30px;
@@ -1096,9 +1219,19 @@ footer{
 		margin-bottom: 15px;
 		line-height: 20px;
 	}
+	.footer__block{
+		width: 50%;
+	}
 
 }
 @media (max-width: 600px){
+	.contact__company_link{
+		width: 50%;
+		display: flex;
+		height: 30px;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
 	#main {
 		height: 260px;
 	}
@@ -1148,6 +1281,13 @@ footer{
 
 }
 @media (max-width: 525px){
+	.c-p-z{
+		padding: 50px 20px;
+		border-radius: 20px;
+	}
+	.contact__input{
+		border-radius: 15px;
+	}
 	body{
 		font-size: 4px;
 	}
@@ -1196,9 +1336,6 @@ footer{
 	.address{
 		display: none;
 	}
-	.c-p-z{
-		padding: 50px 20px;
-	}
 	.portfolio-title1{
 		font-size:2.7rem;
 		margin-top: 14px;
@@ -1212,5 +1349,23 @@ footer{
 
 	.footer-bottom{
 		font-size: 12px;
+	}
+	.footer__block{
+		width: 100%;
+	}
+	.footer-top{
+		justify-content: center;
+	}
+}
+
+@media (max-width: 426px){
+	.contact__company_link__list{
+		flex-wrap:nowrap;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.contact__company_link{
+		width: 100%;
+		display: flex;
 	}
 }

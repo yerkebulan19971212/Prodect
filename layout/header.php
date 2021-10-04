@@ -29,16 +29,16 @@
                     Главная
                 </a>
 
-                <a href="#aboutus" class="nav-link">
+                <a href="#aboutus" class="nav-link" onclick="closeFunction()">
                     О нас
                 </a>
-                <a href="#services" class="nav-link">
+                <a href="#services" class="nav-link" onclick="closeFunction()">
                     Услуги
                 </a>
-                <a href="#portfolio" class="nav-link">
+                <a href="#portfolio" class="nav-link" onclick="closeFunction()">
                     Портфолио
                 </a>
-                <a href="#contact-body" class="nav-link">
+                <a href="#contact-body" class="nav-link" onclick="closeFunction()">
                     Контакты
                 </a>
             </div>
