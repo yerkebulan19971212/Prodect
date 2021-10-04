@@ -23,66 +23,42 @@
 						<div class="section-wrap">
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/React.svg" alt="">
+									<img src="assets/img/flutter.png" alt="">
 								</div>
 								<div class="image-title">
-									React
+									Flutter
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/HTML.svg" alt="">
+									<img src="assets/img/android.png" alt="">
 								</div>
 								<div class="image-title">
-									HTML
+									Android
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/CSS.svg" alt="">
+									<img src="assets/img/ios.png" alt="">
 								</div>
 								<div class="image-title">
-									CSS
+									iOS
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/Java.svg" alt="">
+									<img src="assets/img/swift.png" alt="">
 								</div>
 								<div class="image-title">
-									Java
+									Swift
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/C%23.svg" alt="">
+									<img src="assets/img/kotlin.png" alt="">
 								</div>
 								<div class="image-title">
-									C#
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/Python.svg" alt="">
-								</div>
-								<div class="image-title">
-									Python
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/PostgreSQL.svg" alt="">
-								</div>
-								<div class="image-title">
-									PostgreSQL
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/Figma.svg" alt="">
-								</div>
-								<div class="image-title">
-									Figma
+									Kotlin
 								</div>
 							</div>
 						</div>
@@ -91,15 +67,23 @@
 						<div class="section-wrap">
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/React.svg" alt="">
+									<img src="assets/img/vue.png" alt="">
 								</div>
 								<div class="image-title">
-									React
+									Vue.js
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/HTML.svg" alt="">
+									<img src="assets/img/nuxt.png" alt="">
+								</div>
+								<div class="image-title">
+									Nuxt.js
+								</div>
+							</div>
+							<div class="section-elements">
+								<div class="section-image">
+									<img src="assets/img/html.png" alt="">
 								</div>
 								<div class="image-title">
 									HTML
@@ -107,7 +91,7 @@
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/CSS.svg" alt="">
+									<img src="assets/img/css.png" alt="">
 								</div>
 								<div class="image-title">
 									CSS
@@ -115,42 +99,10 @@
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/Java.svg" alt="">
+									<img src="assets/img/js.png" alt="">
 								</div>
 								<div class="image-title">
-									Java
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/C%23.svg" alt="">
-								</div>
-								<div class="image-title">
-									C#
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/Python.svg" alt="">
-								</div>
-								<div class="image-title">
-									Python
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/PostgreSQL.svg" alt="">
-								</div>
-								<div class="image-title">
-									PostgreSQL
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/Figma.svg" alt="">
-								</div>
-								<div class="image-title">
-									Figma
+									Java script
 								</div>
 							</div>
 						</div>
@@ -159,55 +111,31 @@
 						<div class="section-wrap">
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/React.svg" alt="">
+									<img src="assets/img/firebase.png" alt="">
 								</div>
 								<div class="image-title">
-									React
+									Firebase
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/HTML.svg" alt="">
+									<img src="assets/img/ms.png" alt="">
 								</div>
 								<div class="image-title">
-									HTML
+									MS SQL
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/CSS.svg" alt="">
+									<img src="assets/img/mysql.png" alt="">
 								</div>
 								<div class="image-title">
-									CSS
+									MySQL
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/Java.svg" alt="">
-								</div>
-								<div class="image-title">
-									Java
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/C%23.svg" alt="">
-								</div>
-								<div class="image-title">
-									C#
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/Python.svg" alt="">
-								</div>
-								<div class="image-title">
-									Python
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/PostgreSQL.svg" alt="">
+									<img src="assets/img/postgress.png" alt="">
 								</div>
 								<div class="image-title">
 									PostgreSQL
@@ -215,10 +143,10 @@
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/Figma.svg" alt="">
+									<img src="assets/img/oracle.png" alt="">
 								</div>
 								<div class="image-title">
-									Figma
+									Oracle
 								</div>
 							</div>
 						</div>
@@ -227,31 +155,23 @@
 						<div class="section-wrap">
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/React.svg" alt="">
+									<img src="assets/img/django.png" alt="">
 								</div>
 								<div class="image-title">
-									React
+									Django
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/HTML.svg" alt="">
+									<img src="assets/img/php.png" alt="">
 								</div>
 								<div class="image-title">
-									HTML
+									PHP
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/CSS.svg" alt="">
-								</div>
-								<div class="image-title">
-									CSS
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/Java.svg" alt="">
+									<img src="assets/img/java.png" alt="">
 								</div>
 								<div class="image-title">
 									Java
@@ -259,15 +179,7 @@
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/C%23.svg" alt="">
-								</div>
-								<div class="image-title">
-									C#
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/Python.svg" alt="">
+									<img src="assets/img/python.png" alt="">
 								</div>
 								<div class="image-title">
 									Python
@@ -275,86 +187,62 @@
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/PostgreSQL.svg" alt="">
+									<img src="assets/img/node.png" alt="">
 								</div>
 								<div class="image-title">
-									PostgreSQL
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/Figma.svg" alt="">
-								</div>
-								<div class="image-title">
-									Figma
+									Node
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="section section5">
+					<div class="section section5 section__other">
 						<div class="section-wrap">
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/React.svg" alt="">
+									<img src="assets/img/wp.png" alt="">
 								</div>
 								<div class="image-title">
-									React
+									Wordpress
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/HTML.svg" alt="">
+									<img src="assets/img/joo.png" alt="">
 								</div>
 								<div class="image-title">
-									HTML
+									Joomla
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/CSS.svg" alt="">
+									<img src="assets/img/bitrix.png" alt="">
 								</div>
 								<div class="image-title">
-									CSS
+									1c bitrix
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/Java.svg" alt="">
+									<img src="assets/img/tilda.png" alt="">
 								</div>
 								<div class="image-title">
-									Java
+									Tilda
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/C%23.svg" alt="">
+									<img src="assets/img/wix.png" alt="">
 								</div>
 								<div class="image-title">
-									C#
+									WIX
 								</div>
 							</div>
 							<div class="section-elements">
 								<div class="section-image">
-									<img src="assets/img/Python.svg" alt="">
+									<img src="assets/img/openc.png" alt="">
 								</div>
 								<div class="image-title">
-									Python
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/PostgreSQL.svg" alt="">
-								</div>
-								<div class="image-title">
-									PostgreSQL
-								</div>
-							</div>
-							<div class="section-elements">
-								<div class="section-image">
-									<img src="assets/img/Figma.svg" alt="">
-								</div>
-								<div class="image-title">
-									Figma
+									Opencart
 								</div>
 							</div>
 						</div>

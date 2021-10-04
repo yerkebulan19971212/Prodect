@@ -6,7 +6,9 @@
             </h2>
             <div class="process-body">
                 <div class="processes">
-                    <img class="process-img" src="assets/img/Discover.svg" alt="">
+                    <div class="process-img">
+                        <img class="process-img" src="assets/img/Discover.svg" alt="">
+                    </div>
                     <div class="process-title">
                         Discover
                     </div>
@@ -15,7 +17,9 @@
                     </div>
                 </div>
                 <div class="processes">
-                    <img class="process-img" src="assets/img/Vector.svg" alt="">
+                    <div class="process-img">
+                        <img  src="assets/img/Vector.svg" alt="">
+                    </div>
                     <div class="process-title">
                         Design
                     </div>
@@ -24,7 +28,9 @@
                     </div>
                 </div>
                 <div class="processes">
-                    <img class="process-img" src="assets/img/Build.svg" alt="">
+                    <div class="process-img">
+                        <img class="process-img" src="assets/img/Build.svg" alt="">
+                    </div>
                     <div class="process-title">
                         Build
                     </div>
@@ -33,7 +39,9 @@
                     </div>
                 </div>
                 <div class="processes">
-                    <img class="process-img" src="assets/img/Deliver.svg" alt="">
+                    <div class="process-img">
+                        <img class="process-img" src="assets/img/Deliver.svg" alt="">
+                    </div>
                     <div class="process-title">
                         Deliver
                     </div>

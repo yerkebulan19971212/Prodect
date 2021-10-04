@@ -12,13 +12,13 @@
 </head>
 <body>
 <?php
-//    include 'layout/header.php';
-//    include 'layout/main.php';
-//    include 'layout/process.php';
-//    include 'layout/services.php';
-//    include 'layout/tools.php';
-//    include 'layout/portfolio.php';
-//    include 'layout/contact.php';
+   include 'layout/header.php';
+   include 'layout/main.php';
+   include 'layout/process.php';
+   include 'layout/services.php';
+   include 'layout/tools.php';
+   include 'layout/portfolio.php';
+   include 'layout/contact.php';
     include 'layout/footer.php';
 
      if(!empty($_POST)){

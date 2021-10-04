@@ -16,12 +16,31 @@ body{
 	
 	color: #565656;
 }
+.nav-bar{
+	padding: 10px 0;
+}
 .nav-header-inner{	
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	padding: 10px 0; 
 }
 .nav-header-inner .link{
 	display: flex;
+}
+.nav__contact-us{
+	display: flex;
+	align-items: center;
+}
+.nav__contact-us a{
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	background: #2B478B;
+	border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 20px;
 }
 .city{
 	margin-right: 30px;
@@ -70,7 +89,7 @@ body{
 	padding: 15px 30px;
 	/*margin-right: 40px;*/
 	text-decoration: none;
-	color: #333333;
+	color: #2B478B;
 }
 .nav-link:hover{
 	background-color: #e8e8e8;
@@ -198,13 +217,13 @@ body{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 .processes{
-	flex: 0 0 25%;
+	flex: 0 0 23%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	margin-bottom: 50px;
 }
 .process-title{
@@ -217,6 +236,19 @@ body{
 }
 .process-img{
 	height: 70px;
+	width: 100%;
+	position: relative;
+}
+.process-img::after{
+	content: "";
+	position: absolute;
+	right: 50px;
+	top: 50%;
+	width: calc(100% - 180px);
+	height: 1px;
+	border: 1px dashed #2B478B;
+}
+.process-img img{
 	width: 70px;
 }
 .process-description{
@@ -275,9 +307,14 @@ body{
 	line-height: 23px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	text-align: center;
 	margin-top: 70px;
 	color: #FFFFFF;
+}
+.portfolio-title1 span{
+	margin-left: 10px
+
 }
 .portfolio-description{
 	font-family: Open Sans;
@@ -484,7 +521,7 @@ body{
 }
 #tools .content{
 	margin-top: 50px;
-	height: 640px;
+	height: 420px;
 	width: 100%
 }
 /*#tools .btn{*/
@@ -515,7 +552,6 @@ body{
 }
 #tools .section div{
 	display: flex;
-	width: 80%;
 	align-items: center;
 	justify-content: center;
 	margin-left: auto;
@@ -535,8 +571,16 @@ body{
 	display: flex;
 	width: 80%;
 	flex-direction: column;
-	flex: 0 0 25%;
+	flex: 0 0 20%;
 	margin-top: 60px;
+}
+#tools .section__other.active{
+	width: 80%;
+	left: 50%!important;
+	transform: translate(-50%);
+}
+#tools .section__other .section-elements{
+	flex: 0 0 33%;
 }
 #tools .image-title{
 	font-style: normal;
@@ -733,6 +777,9 @@ footer{
 .contact__page__body{
 	width: 50%;
 }
+.contact__page__body.right{
+	width: 40%;
+}
 .contact__company_link__list{
 	display: flex;
 	flex-wrap: wrap;
@@ -762,6 +809,8 @@ footer{
 }
 .contact__body__content{
 	display: flex;
+	justify-content: space-between;
+	margin: 50px 0;
 }
 .contact-page-address{
 	font-size: 20px;
@@ -823,6 +872,11 @@ footer{
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 24px;
+}
+.contact__input::placeholder{
+	font-size: 15px;
+	line-height: 18px;
+	color: #B6B6B6;
 }
 .contact__button{
 	padding: 10px 20px;
@@ -892,13 +946,7 @@ footer{
 		display: flex;
 		justify-content: center;
 	}
-	.process-body{
-		display: block;
-	}
-	.processes{
-		text-align: center;
-		width: 100%;
-	}
+	
 }
 @media (max-width: 1440px){
 	#main {
@@ -916,6 +964,7 @@ footer{
 	}
 
 }
+
 @media (max-width: 1200px) {
 	.contact__body__content {
 		flex-direction: column-reverse;
@@ -923,12 +972,10 @@ footer{
 	.contact__page__body h4{
 		text-align: center;
 	}
-	.contact__page__body{
+	.contact__page__body, .contact__page__body.right{
 		width: 100%;
 	}
-	#main {
-		height: 520px;
-	}
+	
 	.main-img{
 		width: 400px;
 		height: 400px;
@@ -991,9 +1038,7 @@ footer{
 	}
 }
 @media (max-width: 992px){
-	#main {
-		height: 450px;
-	}
+
 	.main-title{
 		margin-bottom: 35px;
 	}
@@ -1092,9 +1137,6 @@ footer{
 	}
 }
 @media (max-width: 840px) {
-	#main {
-		height: 400px;
-	}
 	.main-img{
 		width: 320px;
 		height: 320px;
@@ -1113,9 +1155,7 @@ footer{
 	}
 }
 @media (max-width: 768px){
-	#main {
-		height: 350px;
-	}
+
 	body{
 		font-size: 5px;
 	}
@@ -1123,7 +1163,38 @@ footer{
 	.main-img{
 		width: 290px;
 		height: 290px;
-		margin-right: 0;
+		margin: 0 auto;
+	}
+	.main-content{
+		flex-wrap: wrap;
+	}
+	.main-inner{
+		width: 100%;
+		order: 2;
+	}
+	.main-title{
+		font-size: 20px;
+		text-align: center;
+	}
+	.main-description{
+		font-size: 18px;
+		font-weight: normal;
+		text-align: center;
+	}
+	.main-btn{
+		font-size: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.main-btn a{
+		padding: 17px 30px;
+	}
+	.main-img{
+		order: 1;
+	}
+	.nav__contact-us{
+		display: none;
 	}
 	.nav-body{
 		display: none;
@@ -1172,7 +1243,7 @@ footer{
 	.nav-bar-inner{
 		padding: 15px 0;
 		display: flex;
-		justify-content:flex-start;
+		justify-content: flex-start;
 	}
 	.nav-brand{
 		font-size: 20px;
@@ -1181,6 +1252,7 @@ footer{
 		margin-left: 15px;
 		padding: 0;
 	}
+	
 	.service-title{
 		font-size: 16px;
 	}
@@ -1224,6 +1296,36 @@ footer{
 	}
 
 }
+@media (max-width: 650px){
+	.process-body{
+		display: block;
+	}
+	.processes{
+		position: relative;
+		width: 100%;
+		margin-bottom: 80px;
+	}
+	.process-img{
+		position: static;
+	}
+	.process-img::after{
+		content: "";
+		position: absolute;
+		right: initial;
+		left: 0;
+		top: calc(100% + 15px);
+		width: 1px;
+		height: 50px;
+		border: 1px dashed #2B478B;
+	}
+	.processes:last-child{
+		padding-bottom: 15px;
+	}
+	.processes:last-child .process-img::after{
+		content: '';
+		display: none;
+	}
+}
 @media (max-width: 600px){
 	.contact__company_link{
 		width: 50%;
@@ -1232,28 +1334,13 @@ footer{
 		justify-content: center;
 		margin-bottom: 50px;
 	}
-	#main {
-		height: 260px;
-	}
-	.main-inner{
-		flex: 100%;
-		text-align: center;
-	}
+	
 	.first-btn{
 		margin: 40px auto 0;
 		max-width: 300px;
 	}
 	.service{
 		flex: 0 0 100%;
-	}
-	.main-img{
-		display: none;
-	}
-	.main-title{
-		font-size: 7.7rem;
-	}
-	.main-description{
-		font-size: 6.7rem;
 	}
 	.portfolio-title1{
 		font-size:4.5rem;
@@ -1281,6 +1368,18 @@ footer{
 
 }
 @media (max-width: 525px){
+	.main-title{
+		font-size: 16px;
+	}
+	.main-description{
+		font-size: 14px;
+	}
+	.main-btn{
+		font-size: 20px;
+	}
+	.main-btn a{
+		padding: 10px 20px;
+	}
 	.c-p-z{
 		padding: 50px 20px;
 		border-radius: 20px;
@@ -1310,12 +1409,6 @@ footer{
 	.contact-main-description{
 		font-size: 14px;
 	}
-	.main-title{
-		font-size: 4.5rem;
-	}
-	.main-description{
-		font-size: 2.8rem;
-	}
 	.portfolio-title1{
 		font-size:3.8rem;
 		margin-top: 35px;
@@ -1344,6 +1437,7 @@ footer{
 		font-size: 2.1rem;
 		margin-top: 4px;
 	}
+	
 }
 @media (max-width: 320px){
 

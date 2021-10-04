@@ -19,7 +19,7 @@
                 <button class="open-btn" onclick="openFunction()"><img src="assets/img/Disabled.svg" alt=""></button>
             </div>
             <a href="/" class="nav-brand">
-                ProDec
+                <img src="assets/img/Logo.png" alt="">
             </a>
             <div class="nav-body" id="nav-body">
                 <button class="nav-close mobile" onclick="closeFunction()">
@@ -41,6 +41,9 @@
                 <a href="#contact-body" class="nav-link" onclick="closeFunction()">
                     Контакты
                 </a>
+            </div>
+            <div class="nav__contact-us">
+                <a href="#contact-body">Contact us</a>
             </div>
         </div>
     </div>
