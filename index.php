@@ -12,6 +12,7 @@
 </head>
 <body>
 <?php
+
    include 'layout/header.php';
    include 'layout/main.php';
    include 'layout/process.php';
@@ -19,7 +20,7 @@
    include 'layout/tools.php';
    include 'layout/portfolio.php';
    include 'layout/contact.php';
-    include 'layout/footer.php';
+   include 'layout/footer.php';
 
      if(!empty($_POST)){
          $to = "yerkebulan19971212@gmail.com"; // this is your Email address
@@ -90,8 +91,7 @@
                     scrollTop: target.offset().top
                 }, 1000);
                 return false;
-            }
-            console.log("DDDDDDDDDDDDDDDd")
+            }           
         });
     });
 </script>

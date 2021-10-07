@@ -10,16 +10,16 @@
                 </h4>
                 <div class="contact__company_link__list">
                     <a href="#" class="contact__company_link">
-                        <img src="assets/img/coursteka.svg" alt="">
+                        <img src="assets/img/Courses.svg" alt="">
                     </a>
                     <a href="#" class="contact__company_link">
-                        <img src="assets/img/coursteka.svg" alt="">
+                        <img src="assets/img/testhub.svg" alt="">
                     </a>
                     <a href="#" class="contact__company_link">
-                        <img src="assets/img/coursteka.svg" alt="">
+                        <img src="assets/img/Image.svg" alt="">
                     </a>
                     <a href="#" class="contact__company_link">
-                        <img src="assets/img/coursteka.svg" alt="">
+                        <img src="assets/img/СатыКольсай.svg" alt="">
                     </a>
                 </div>
             </div>

@@ -773,6 +773,8 @@ footer{
 	width: 33%;
 	height: 30px;
 	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
 }
 .contact__page__body{
 	width: 50%;

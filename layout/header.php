@@ -19,7 +19,7 @@
                 <button class="open-btn" onclick="openFunction()"><img src="assets/img/Disabled.svg" alt=""></button>
             </div>
             <a href="/" class="nav-brand">
-                <img src="assets/img/Logo.png" alt="">
+                <img src="assets/img/Logo.svg" alt="">
             </a>
             <div class="nav-body" id="nav-body">
                 <button class="nav-close mobile" onclick="closeFunction()">
@@ -29,11 +29,14 @@
                     Главная
                 </a>
 
-                <a href="#aboutus" class="nav-link" onclick="closeFunction()">
-                    О нас
+                <a href="#process" class="nav-link" onclick="closeFunction()">
+                    Процесс
                 </a>
                 <a href="#services" class="nav-link" onclick="closeFunction()">
                     Услуги
+                </a>
+                <a href="#tools" class="nav-link" onclick="closeFunction()">
+                    Инструменты
                 </a>
                 <a href="#portfolio" class="nav-link" onclick="closeFunction()">
                     Портфолио
